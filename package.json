@@ -1,10 +1,14 @@
 {
   "name": "node-shared-structures",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Implementations of a few basic data structures on top of SharedArrayBuffer for Node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pies/node-shared-structures.git"
+  },
   "main": "index.js",
   "scripts": {
-    "build": "tsc -p ./ --outDir build/",
+    "build": "tsc -p . --outDir build/",
     "test": "npm run lint && npm run prepublishOnly && npm run test-unit",
     "prepublishOnly": "tsc -p ./ --outDir dist/",
     "lint": "npm run lint-raw -- -t stylish",
@@ -12,8 +16,8 @@
     "test-unit": "mocha --timeout 5000 \"test/**/*.spec.ts\" --require ts-node/register"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Michal Tatarynowicz <tatarynowicz@gmail.com>",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "murmurhash": "^1.0.0"
   },

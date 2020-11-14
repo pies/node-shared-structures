@@ -1,6 +1,6 @@
-/dev/
-/node_modules
-/dist/
+dev
+node_modules
+dist
 .DS_Store
-/.idea
+.idea
 package-lock.json
