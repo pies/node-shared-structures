@@ -1,0 +1,82 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "max-classes-per-file": [false, 1],
+    "max-line-length": [
+      true,
+      200
+    ],
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "interface-over-type-literal": false,
+    "no-reference": true,
+    "no-var-requires": false,
+    "no-require-imports": false,
+    "import-spacing": true,
+    "match-default-export-name": true,
+    "ordered-imports": false,
+    "interface-name": false,
+    "array-type": [
+      true,
+      "array"
+    ],
+    "object-literal-sort-keys": false,
+    "no-string-literal": false,
+    "object-literal-key-quotes": false,
+    "arrow-parens": false,
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "ignore",
+      "exports": "ignore",
+      "functions": "ignore"
+    }],
+    "object-literal-shorthand": false,
+    "ban-types": {
+      "options": [
+        [
+          "Object",
+          "Avoid using the `Object` type. Did you mean `object`?"
+        ],
+        [
+          "Boolean",
+          "Avoid using the `Boolean` type. Did you mean `boolean`?"
+        ],
+        [
+          "Number",
+          "Avoid using the `Number` type. Did you mean `number`?"
+        ],
+        [
+          "String",
+          "Avoid using the `String` type. Did you mean `string`?"
+        ],
+        [
+          "Symbol",
+          "Avoid using the `Symbol` type. Did you mean `symbol`?"
+        ]
+      ]
+    },
+    "space-before-function-paren": [
+      true,
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "semicolon": false,
+    "no-angle-bracket-type-assertion": false,
+    "forin": false,
+    "no-console": [false],
+    "indent": [true, "spaces", 4]
+  }
+}
