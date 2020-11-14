@@ -1,6 +1,6 @@
 {
   "name": "node-shared-structures",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Implementations of a few basic data structures on top of SharedArrayBuffer for Node.js",
   "repository": {
     "type": "git",
