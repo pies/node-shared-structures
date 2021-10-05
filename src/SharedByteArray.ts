@@ -107,4 +107,6 @@ export class SharedByteArray implements ArrayLike<any> {
   public dump(): void {
     console.log(this.toString());
   }
+
+  [n: number]: any;
 }

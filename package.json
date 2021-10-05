@@ -1,6 +1,6 @@
 {
   "name": "node-shared-structures",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Implementation of a few basic thread-unsafe, constant-size data structures on top of SharedArrayBuffer for Node.js",
   "keywords": ["nodejs", "shared", "memory", "buffer", "hashmap", "linked-list", "map"],
   "author": "Michal Tatarynowicz <tatarynowicz@gmail.com>",
